@@ -6,7 +6,6 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "start": "webpack-dev-server --open"
-
   },
   "keywords": [],
   "author": "",
