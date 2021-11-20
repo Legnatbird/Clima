@@ -2,7 +2,7 @@ import React from "react";
 
 const WeatherForm = props=>(
     <div className="card card-body">
-        <form onSubmit="">
+        <form onSubmit={props.getWeather}>
             <div className="mb-3">
                 <input type="text" name="city" placeholder="Your city name" className="form-control" autoFocus />
             </div>
